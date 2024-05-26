@@ -1,0 +1,11 @@
+@import "~terriajs-variables";
+@import "~terriajs/lib/Sass/common/mixins";
+
+.filter-panel {
+  font-size: $font-size-mid-small;
+}
+
+.dropdown-inner {
+  width: $share-panel-width;
+  @include transform-origin(50%, top);
+}
